@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DFE952" offset="0%"></stop>
+            <stop stop-color="#BBCE29" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="128" cy="128" r="128"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup">
+            <g id="Oval-1">
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <use fill="none" xlink:href="#path-2"></use>
+            </g>
+            <text id="TWIG" sketch:type="MSTextLayer" font-family="Arial" font-size="75" font-weight="bold" fill="#FFFFFF">
+                <tspan x="30" y="120">TWIG</tspan>
+            </text>
+            <text id="Semantic" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="bold" fill="#FF0000">
+                <tspan x="70" y="180">{</tspan>
+            </text>
+            <text id="Semantic" sketch:type="MSTextLayer" font-family="Arial" font-size="35" font-weight="normal" fill="#FFFFFF">
+                <tspan x="95" y="180">lens</tspan>
+            </text>
+            <text id="Semantic" sketch:type="MSTextLayer" font-family="Arial" font-size="40" font-weight="bold" fill="#FF0000">
+                <tspan x="165" y="180">}</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

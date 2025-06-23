@@ -1,0 +1,15 @@
+.vscode/**
+**/*.ts
+**/*.map
+.gitignore
+**/tsconfig.json
+**/tsconfig.base.json
+contributing.md
+prettier.config.js
+scripts/**
+twig.tmLanguage
+out/**
+*.vsix
+
+# Exclude all node_modules by default
+node_modules/**

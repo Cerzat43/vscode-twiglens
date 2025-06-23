@@ -1,0 +1,77 @@
+{
+    "name": "vscode-twiglens",
+    "displayName": "Twig semantic",
+    "description": "Syntax highlight for Twig",
+    "version": "0.0.1",
+    "author": "Cyril Soulliage",
+    "publisher": "cerzat43",
+    "license": "MIT",
+    "icon": "twig_icon.png",
+    "galleryBanner": {
+        "color": "#BBCE29",
+        "theme": "light"
+    },
+    "homepage": "https://github.com/cerzat43/vscode-twig/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cerzat43/vscode-twig"
+    },
+    "bugs": {
+        "url": "https://github.com/cerzat43/vscode-twig/issues"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "php",
+        "twig",
+        "html",
+        "template"
+    ],
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "contributes": {
+        "languages": [
+            {
+                "id": "twig",
+                "aliases": [
+                    "HTML (Twig)",
+                    "twig"
+                ],
+                "extensions": [
+                    ".twig",
+                    ".html.twig"
+                ],
+                "configuration": "./syntaxes/language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "twig",
+                "scopeName": "text.html.twig",
+                "path": "./syntaxes/twig.tmLanguage.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "eslint",
+        "watch": "tsc -watch -p ./",
+        "build:tmlanguage": "node scripts/convert-tmlanguage.js syntaxes/twig.tmLanguage syntaxes/twig.tmLanguage.json"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.13.0",
+        "@stylistic/eslint-plugin": "^2.9.0",
+        "@types/node": "^20",
+        "@types/vscode": "^1.73.0",
+        "eslint": "^9.13.0",
+        "prettier": "^3.2.5",
+        "typescript": "^5.8.2",
+        "typescript-eslint": "^8.26.0"
+    },
+    "dependencies": {
+        "plist": "^3.1.0"
+    }
+}
