@@ -1,6 +1,6 @@
 {
     "name": "vscode-twiglens",
-    "displayName": "Twig semantic",
+    "displayName": "TwigLens",
     "description": "Syntax highlight for Twig",
     "version": "0.0.1",
     "author": "Cyril Soulliage",
